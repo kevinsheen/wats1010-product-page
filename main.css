@@ -1,8 +1,108 @@
 /* Styles for Product Page Customization */
 /* NOTE: Do not edit the Bootstrap CSS files. */
 
+body { 
+	background-color: #FFA500;
+}
 
 h1 {
-	background-color: green;
 	text-align: center; 
+	color: blue; 
+	font-size: 250%;
+	background-image: url("images/apibuilding.jpg");
+	padding-top: 50px; 
+	padding-bottom: 50px; 
+	background-size: 90%; 
+}
+
+section {
+	background-color: lightgray; 
+	text-align: center; 
+	font-weight: bold; 
+	border-style: solid;
+    border-width: 2px 20px 4px 20px;
+	margin-bottom: 40px; 
+}
+
+.video-explainer {
+	border-style: solid;
+    border-width: 4px 20px 4px 20px;
+	text-align: center; 
+	padding-top: 20px; 
+	padding-bottom: 20px; 
+	background-color: lightgray; 
+	 
+}
+.features {
+	border-style: solid;
+    border-width: 4px 20px 4px 20px;
+	text-align: center; 
+	padding-top: 20px; 
+	padding-bottom: 20px; 
+	margin-top: 40px; 
+	background-color: lightgray; 
+}
+
+.browse-catalog {
+	display: inline-block;
+  border-radius: 4px;
+  background-color: blue;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  margin: 5px;
+	margin-top: 40px; 
+	margin-left: 250px;
+}
+
+.sign-up {
+	display: inline-block;
+  border-radius: 4px;
+  background-color: blue;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  margin: 5px;
+}
+
+.act-now {
+	border-style: solid;
+    border-width: 4px 20px 4px 20px;
+	text-align: center; 
+	margin-top: 40px; 
+	background-color: lightgray; 
+}
+
+.testimonials {
+	border-style: solid;
+    border-width: 4px 20px 4px 20px;
+	text-align: center; 
+	margin-top: 40px; 
+	background-color: lightgray; 
+}
+
+h2 {
+	color: blue;
+}
+
+.social-media {
+	border-style: solid;
+    border-width: 4px 20px 4px 20px;
+	text-align: center; 
+	margin-top: 40px; 
+	background-color: lightgray; 
+}
+
+.in-touch {
+	border-style: solid;
+    border-width: 4px 20px 4px 20px;
+	text-align: center; 
+	margin-top: 40px; 
+	background-color: lightgray; 
 }
