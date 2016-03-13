@@ -3,22 +3,24 @@
 
 body { 
 	background-image: url(images/circuitboard-background.jpg);
-	background-size: 120% 120%;
+	background-size: 100% 100%;
     background-attachment: fixed; 
+	
 
 }
 
 h1 {
 	text-align: center; 
 	text-shadow: 2px 1px black;
-	color: blue; 
-	font-size: 300%;
+	color: orange; 
+	font-size: 400%;
 	background-image: url("images/apibuilding.jpg");
 	padding-top: 50px; 
 	padding-bottom: 50px; 
-	background-size: 90%; 
-	background-position: 50% 50%; 
-		
+	background-size: 130%; 
+	background-position: 100% 58%; 
+	font-family: ‘Lucida Console’, Monaco, monospace;
+	
 }
 
 section {
@@ -28,6 +30,7 @@ section {
 	border-style: solid;
     border-width: 2px 20px 4px 20px;
 	margin-bottom: 40px; 
+	font-size: 150%;
 }
 
 .video-explainer {
@@ -37,16 +40,19 @@ section {
 	padding-top: 20px; 
 	padding-bottom: 20px; 
 	background-color: #1E90FF; 
+	margin-left: 100px; 
+	margin-right: 100px; 
 	 
 }
 .features {
 	border-style: solid;
     border-width: 4px 20px 4px 20px;
 	text-align: center; 
-	padding-top: 20px; 
+	padding-top: -10px; 
 	padding-bottom: 20px; 
 	margin-top: 40px; 
 	background-color: #1E90FF; 
+	font-size: 150%;
 }
 
 .browse-catalog {
@@ -64,6 +70,8 @@ section {
 	margin-left: 250px;
 }
 
+.browse-catalog:hover { outline: dotted lightblue; }
+
 .sign-up {
 	display: inline-block;
   border-radius: 4px;
@@ -77,12 +85,15 @@ section {
   margin: 5px;
 }
 
+.sign-up:hover { outline: dotted lightblue; }
+
 .act-now {
 	border-style: solid;
     border-width: 4px 20px 4px 20px;
 	text-align: center; 
-	margin-top: 40px; 
+	margin-top: 30px; 
 	background-color: #1E90FF; 
+	font-size: 150%;
 }
 
 .testimonials {
@@ -91,6 +102,7 @@ section {
 	text-align: center; 
 	margin-top: 40px; 
 	background-color: #1E90FF; 
+	font-size: 150%;
 }
 
 h2 {
@@ -103,7 +115,10 @@ h2 {
     border-width: 4px 20px 4px 20px;
 	text-align: center; 
 	margin-top: 40px; 
-	background-color: #1E90FF; 
+	background-color: #1E90FF;
+	margin-left: 180px; 
+	margin-right: 180px; 
+	 
 }
 
 .in-touch {
@@ -112,4 +127,30 @@ h2 {
 	text-align: center; 
 	margin-top: 40px; 
 	background-color: #1E90FF; 
+	font-family: ‘Lucida Console’, Monaco, monospace;
 }
+
+ul#menu {
+    padding: 0;
+}
+
+ul#menu li {
+    display: inline;
+}
+
+ul#menu li a {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0; 
+}
+
+ul#menu li a:hover {
+    background-color: orange;
+}
+
+.twitter, .facebook, .instagram, .google {
+	display: inline;  
+}
+
